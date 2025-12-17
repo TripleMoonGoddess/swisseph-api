@@ -1,6 +1,7 @@
 /**
  * Swiss Ephemeris REST API Server
  * Custom API for Google Apps Script integration
+ * Version 1.0.1
  */
 
 const express = require('express');
