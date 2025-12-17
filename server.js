@@ -5,7 +5,7 @@
 
 const express = require('express');
 const cors = require('cors');
-const swisseph = require('swisseph');
+const swisseph = require('sweph');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // Set ephemeris path to the package's built-in data
-swisseph.swe_set_ephe_path(__dirname + '/node_modules/swisseph/ephe');
+swisseph.swe_set_ephe_path(__dirname + '/node_modules/sweph/ephe');
 
 // ===== CONSTANTS =====
 const SIGNS = [
