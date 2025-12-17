@@ -13,7 +13,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "sweph": "^2.10.3"
+    "sweph": "2.10.3-b-1"
   },
   "keywords": [
     "astrology",
